@@ -2,6 +2,8 @@
     <div>
         <SideBar />
         <slot />
+
+        <Table />
     </div>
 </template>
 
@@ -9,5 +11,6 @@
 
 import NavBar from '@/Components/layouts/NavBar.vue'
 import SideBar from '@/Components/layouts/SideBar.vue'
+import Table from '@/Components/layouts/Table.vue'
 
 </script>
