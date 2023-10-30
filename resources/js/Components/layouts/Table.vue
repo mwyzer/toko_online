@@ -66,8 +66,13 @@
                         <td class="px-6 py-4">
                             $2999
                         </td>
-                        <td class="px-6 py-4">
-                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                        <td class="px-4 py-4">
+                            <FancyGreenButton>
+                                Edit
+                            </FancyGreenButton>
+                            <FancyRedButton>
+                                Delete
+                            </FancyRedButton>
                         </td>
                     </tr>
                     <tr
@@ -91,8 +96,13 @@
                         <td class="px-6 py-4">
                             $1999
                         </td>
-                        <td class="px-6 py-4">
-                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                        <td class="px-4 py-4">
+                            <FancyGreenButton>
+                                Edit
+                            </FancyGreenButton>
+                            <FancyRedButton>
+                                Delete
+                            </FancyRedButton>
                         </td>
                     </tr>
                     <tr
@@ -116,8 +126,13 @@
                         <td class="px-6 py-4">
                             $99
                         </td>
-                        <td class="px-6 py-4">
-                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                        <td class="px-4 py-4">
+                            <FancyGreenButton>
+                                Edit
+                            </FancyGreenButton>
+                            <FancyRedButton>
+                                Delete
+                            </FancyRedButton>
                         </td>
                     </tr>
                     <tr
@@ -141,8 +156,13 @@
                         <td class="px-6 py-4">
                             $179
                         </td>
-                        <td class="px-6 py-4">
-                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                        <td class="px-4 py-4">
+                            <FancyGreenButton>
+                                Edit
+                            </FancyGreenButton>
+                            <FancyRedButton>
+                                Delete
+                            </FancyRedButton>
                         </td>
                     </tr>
                     <tr
@@ -166,8 +186,13 @@
                         <td class="px-6 py-4">
                             $699
                         </td>
-                        <td class="px-6 py-4">
-                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                        <td class="px-4 py-4">
+                            <FancyGreenButton>
+                                Edit
+                            </FancyGreenButton>
+                            <FancyRedButton>
+                                Delete
+                            </FancyRedButton>
                         </td>
                     </tr>
                     <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -186,16 +211,26 @@
                         </td>
                         <td class="px-6 py-4">
                             PC Desktop
-                    </td>
-                    <td class="px-6 py-4">
-                        $3999
-                    </td>
-                    <td class="px-6 py-4">
-                        <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                        </td>
+                        <td class="px-6 py-4">
+                            $3999
+                        </td>
+                        <td class="px-4 py-4">
+                            <FancyGreenButton>
+                                Edit
+                            </FancyGreenButton>
+                            <FancyRedButton>
+                                Delete
+                            </FancyRedButton>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
+</template>
 
-</div></template>
+<script setup>
+import FancyGreenButton from '../FancyGreenButton.vue'
+import FancyRedButton from '../FancyRedButton.vue'
+</script>
